@@ -23,6 +23,11 @@ var errorMsg= getClasses('error');
 var obj= JSON.parse(localStorage.getItem('userinfo'));
 
 
+//sts.textContent=`The First Name is: 
+//${obj.firstname} ,and Last Name is: 
+//${obj.lastname}, and Email is: 
+//${obj.email},and Password is: 
+//${obj.password}`;
 
 
 form.addEventListener('submit',(event)=>{
