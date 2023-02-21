@@ -33,57 +33,6 @@ ${obj.password}`;
 form.addEventListener('submit',(event)=>{
   event.preventDefault();
 
-  /* 
-    if(fname.value.trim() == '')
-    {
-        fname.style.border='2px solid red';
-        return;
-    }
-    else
-    {
-        fname.style.border='2px solid green';
-    }
-
-    if(lname.value.trim() == ''){
-        lname.style.border='2px solid red';
-        return; 
-    }
-    else{
-        lname.style.border='2px solid green'; 
-    }
-
-    if(email.value.trim() == ''){
-        email.style.border='2px solid red';
-        return;
-    }
-    else{
-        email.style.border='2px solid green';    
-    }
-
-    if(password.value.trim() =='')
-    {
-        password.style.border='2px solid red';
-        return;
-    }
-    else
-    {
-        password.style.border='2px solid green'; 
-    }
-
-    
- 
-    if(fname.value !='' && lname.value !='' && email.value !='' && password.value !='')
-    {
-        
-       dhee.textContent='plzz wait. form is submitting....'; 
-       
-       setTimeout(()=>{
-        dhee.textContent="Thank You for response !";
-        alert('Sucessfully Submitted !');
-        
-       },3000) 
-
-    }  */
 
    
     var fnameValid= customValidator(fname,0,'First Name is Mandatory !');
